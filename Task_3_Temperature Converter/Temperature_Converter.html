@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="Temperature_Converter.css">
+</head>
+<body>
+	<div class="mycontainer" style="height: 1000px; display: flex; align-items: center; justify-content: center;">
+		<div class="container">
+			<div class="container1">
+				<h2>Temperature Converter App</h2>
+			</div>
+			<div class="container2">
+				<div class="section">
+					<label><strong>Degrees</strong></label><br><br>
+					<input type="number" class="takval" required><br><br>
+				</div>
+				<div class="section">
+					<label><strong>Scale</strong></label><br><br>
+					<select name="" id="unit">
+						<option value="Celsius"><strong>Celcius</strong></option>
+						<option value="Fahrenheit"><strong>Fahrenheit</strong></option>
+					</select><br><br></div>
+			</div>
+			<div class="container4">
+				<label><strong>Output</strong></label><br><br>
+				<div class="value">
+			</div>
+			<br><br>
+		</div>
+			<button onclick="temprature()" class="button"><strong>Convert</strong></button>
+		</div>
+
+	</div>
+	
+	<footer style="margin-top: 25px;">
+		<p style="color:red ; background-color: yellow; padding: 10px; border-radius: 25px;"><strong>&copy; Made by Soham Ray for Info aidTech Web Development Internship</strong></p>
+	</footer>
+</body>
+<script src="Temperature_Converter.js"></script>
+</html>
